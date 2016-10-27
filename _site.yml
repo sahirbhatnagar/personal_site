@@ -4,6 +4,11 @@ navbar:
   left:
     - text: "Home"
       href: index.html
+    - text: "Projects"     ##### the new
+      href: projects.html  ##### stuff
     - text: "About Me"
       href: about.html
-      
+output:
+  html_document:
+    theme: flatly
+    css: style.css
