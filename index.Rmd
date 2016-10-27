@@ -9,7 +9,7 @@ $$Y = \alpha \cdot \sin(X), \alpha = 0,0.1,0.2,...,3$$
 ```{r, echo = FALSE, fig.align='center'}
 library(tidyverse)
 cool_function <- function(x, alpha) return(sin(alpha*x))
-xs <- seq(0, 10, 0.01)
+xs <- seq(0, pi*1.5, 0.005)
 ys <- cool_function(xs, 1)
 results <- data_frame(xs, ys, alpha = "1")
 for(alpha in seq(0,3, 0.1)){
@@ -25,6 +25,5 @@ ggplot(results, aes(x = xs, y = ys, color = alpha)) +
   geom_line() + 
   theme_bw() + 
   theme(legend.position="none")
-  
 ```
 
