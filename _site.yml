@@ -1,12 +1,12 @@
-name: "nicks-website"
+name: "MATH 697"
 output_dir: "."
 navbar:
-  title: "Nicks Website"
+  title: "MATH 697"
   left:
     - text: "Home"
       href: index.html
-    - text: "About Me"
-      href: about.html
+    - text: "Syllabus"
+      href: syllabus.html
 output:
   html_document:
     theme: readable
