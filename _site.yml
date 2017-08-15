@@ -9,6 +9,6 @@ navbar:
       href: about.html
 output:
   html_document:
-    theme: flatly
-    css: readable.css
+    theme: readable
+    css: style.css
       
