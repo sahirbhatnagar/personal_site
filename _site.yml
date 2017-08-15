@@ -1,4 +1,5 @@
 name: "nicks-website"
+output_dir: "."
 navbar:
   title: "Nicks Website"
   left:
@@ -6,4 +7,8 @@ navbar:
       href: index.html
     - text: "About Me"
       href: about.html
+output:
+  html_document:
+    theme: flatly
+    css: readable.css
       
